@@ -166,8 +166,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"isRed","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Red","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Blue","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2100000, guid: 364ef0c8d6524554dace8cf43b14fa3c, type: 2}
+    - {fileID: 2100000, guid: c105406f9512f9a4981c3a46abaff8ff, type: 2}
 --- !u!4 &63469400
 Transform:
   m_ObjectHideFlags: 0
@@ -481,7 +483,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362083395}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: -6.16, y: 1, z: -6.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
